@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { FormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -9,8 +8,8 @@ import { RecipesComponent } from './recipes/recipes.component';
 import { RecipeListComponent } from './recipes/recipe-list/recipe-list.component';
 import { RecipeDetailComponent } from './recipes/recipe-detail/recipe-detail.component';
 import { RecipeItemComponent } from './recipes/recipe-list/recipe-item/recipe-item.component';
-import { ShopingListComponent } from './shoping-edit/shoping-list/shoping-list.component';
-import { ShopingEditComponent } from './shoping-edit/shoping-edit.component';
+import { ShoppingListComponent } from './shoping-list/shoping-list.component';
+import { ShoppingEditComponent } from './shoping-list/shoping-edit/shoping-edit.component';
 
 @NgModule({
   declarations: [
@@ -20,8 +19,8 @@ import { ShopingEditComponent } from './shoping-edit/shoping-edit.component';
     RecipeListComponent,
     RecipeDetailComponent,
     RecipeItemComponent,
-    ShopingListComponent,
-    ShopingEditComponent
+    ShoppingListComponent,
+    ShoppingEditComponent
   ],
   imports: [
     BrowserModule,

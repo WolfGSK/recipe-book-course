@@ -5,6 +5,6 @@ import { Component } from '@angular/core';
   templateUrl: './shoping-edit.component.html',
   styleUrls: ['./shoping-edit.component.css']
 })
-export class ShopingEditComponent {
+export class ShoppingEditComponent {
 
 }
